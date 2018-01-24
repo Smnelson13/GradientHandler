@@ -16,6 +16,9 @@
 		902E33C1201808C900A4EE18 /* GradientHandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E33C0201808C900A4EE18 /* GradientHandlerUITests.swift */; };
 		902E33CF2018094200A4EE18 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E33CE2018094200A4EE18 /* Gradient.swift */; };
 		902E33D12018097400A4EE18 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E33D02018097400A4EE18 /* Colors.swift */; };
+		902E33D7201814E700A4EE18 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E33D6201814E700A4EE18 /* TableViewController.swift */; };
+		902E33D9201815BE00A4EE18 /* NOC.json in Resources */ = {isa = PBXBuildFile; fileRef = 902E33D8201815BE00A4EE18 /* NOC.json */; };
+		902E33DB2018162F00A4EE18 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E33DA2018162F00A4EE18 /* Agent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		902E33C2201808C900A4EE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		902E33CE2018094200A4EE18 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		902E33D02018097400A4EE18 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		902E33D6201814E700A4EE18 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		902E33D8201815BE00A4EE18 /* NOC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NOC.json; sourceTree = "<group>"; };
+		902E33DA2018162F00A4EE18 /* Agent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		902E339F201808C900A4EE18 /* GradientHandler */ = {
 			isa = PBXGroup;
 			children = (
+				902E33D6201814E700A4EE18 /* TableViewController.swift */,
 				902E33A0201808C900A4EE18 /* AppDelegate.swift */,
 				902E33A2201808C900A4EE18 /* ViewController.swift */,
 				902E33CE2018094200A4EE18 /* Gradient.swift */,
+				902E33DA2018162F00A4EE18 /* Agent.swift */,
 				902E33D02018097400A4EE18 /* Colors.swift */,
+				902E33D8201815BE00A4EE18 /* NOC.json */,
 				902E33A4201808C900A4EE18 /* Main.storyboard */,
 				902E33A7201808C900A4EE18 /* Assets.xcassets */,
 				902E33A9201808C900A4EE18 /* LaunchScreen.storyboard */,
@@ -238,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902E33D9201815BE00A4EE18 /* NOC.json in Resources */,
 				902E33AB201808C900A4EE18 /* LaunchScreen.storyboard in Resources */,
 				902E33A8201808C900A4EE18 /* Assets.xcassets in Resources */,
 				902E33A6201808C900A4EE18 /* Main.storyboard in Resources */,
@@ -268,6 +278,8 @@
 				902E33A3201808C900A4EE18 /* ViewController.swift in Sources */,
 				902E33D12018097400A4EE18 /* Colors.swift in Sources */,
 				902E33A1201808C900A4EE18 /* AppDelegate.swift in Sources */,
+				902E33DB2018162F00A4EE18 /* Agent.swift in Sources */,
+				902E33D7201814E700A4EE18 /* TableViewController.swift in Sources */,
 				902E33CF2018094200A4EE18 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
